@@ -3,5 +3,14 @@
     "editor.tabSize": 2,
     "files.associations": {
         "*.vue": "vue"
-    }
+    },
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ]
 }

@@ -31,4 +31,8 @@ html{font-size:10px}
 @media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
 @media screen and (min-width:800px){html{font-size:25px}}
 
+* {
+  box-sizing: border-box;
+}
+
 </style>

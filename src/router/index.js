@@ -10,6 +10,13 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/NewsDetail/:id',
+      name: 'NewsDetail',
+      component: resolve => {
+        require(['@/components/NewsDetail.vue'], resolve)
+      }
     }
   ]
 })
