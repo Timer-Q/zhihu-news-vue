@@ -18,7 +18,7 @@ export default {
     position: sticky;
     top: 0;
     font-size: 1.8rem;
-    line-height: 1.5;
+    line-height: 2;
     color: #fff;
     background: #028fd6;
     text-align: center;

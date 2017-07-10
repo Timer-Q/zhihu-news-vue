@@ -5,7 +5,8 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import store from './store'
-
+import filters from './filters'
+Object.keys(filters).forEach(k => Vue.filter(k, filters[k]))
 Vue.prototype.$fetch = axios
 
 Vue.config.productionTip = false

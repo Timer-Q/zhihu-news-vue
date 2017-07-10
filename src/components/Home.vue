@@ -42,13 +42,6 @@ export default {
       })
     }
   },
-  filters: {
-    attachImgUrl (sourceUrl) {
-      if (sourceUrl) {
-        return sourceUrl.replace(/http\w{0,1}:\/\/p/g, 'https://images.weserv.nl/?url=p')
-      }
-    }
-  },
   components: {
     'v-header': header
   }
