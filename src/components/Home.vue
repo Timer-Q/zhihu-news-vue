@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <v-header title="首页"></v-header>
+    <v-header title="首页">
+      <span slot="menu" @click="showMenu">menu</span>
+    </v-header>
     <section class="content">
       <ul class="content-list">
         <li v-for="(item, index) in stories" :key="item.id" @click="showNewsDetail(item.id)" class="content-item">
@@ -40,6 +42,9 @@ export default {
           id
         }
       })
+    },
+    showMenu () {
+      console.log('you just click me')
     }
   },
   components: {

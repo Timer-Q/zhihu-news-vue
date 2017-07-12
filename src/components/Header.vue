@@ -1,6 +1,7 @@
 <template>
   <div class="header">
     {{title}}
+    <slot name="menu"></slot>
   </div>
 </template>
 <script>
